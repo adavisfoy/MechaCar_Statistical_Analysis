@@ -39,5 +39,12 @@ The following are the **summary statistics** for weight capacities (in PSI) for 
 - **Discussion:**  
   - Statistical analysis is often concerned with variance and how things vary from the average or mean in the real world. The variance provides an actual value for how much the numbers in our data set vary from the mean. Higher numbers indicate greater variability. The full definition of variance is the average of the squared distances from the mean, which means the units of variance are squared (i.e. PSI squared). This makes it difficult to interpret the actual value of the variance against our suspension coil data.  
   - Because of this, it may be more useful to use the standard deviation to answer this question. The standard deviation tells us about the spread or average distance that a value lies from the mean. It is the square root of the variance such that the units will match the original units of our data (PSI).  
+
+- **Conclusion:**
+  - Yes, the current manufacturing data meet the design specifications for all manufacturing lots. The standard deviation for all lots is 7.89 PSI which is well within the defined limits for variance. 
+  - Yes, the current manufacturing data also meet the design specifications for each individual lot. 
+    - The standard deviation for Lot 1 was approximately 1 PSI, within defined limits.
+    - The standard deviation for Lot 2 was 2.73 PSI, also within defined limits. 
+    - The standard deviation for Lot 3 was 13.05 PSI, also within defined limits.  
   
    
