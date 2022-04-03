@@ -49,12 +49,22 @@ The following are the **summary statistics** for weight capacities (in PSI) for 
   
 ## T-Tests on Suspension Coils
 
+The next section of our analysis will utilize t-tests to evaluate our sample mean versus a presumed population mean (mu = 1500). 
+
+Our null and alternative hypothoses can be stated as follows: 
+- H0: There is no statistical difference between the observed sample mean and the presumed population mean. 
+- HA: There is a statistical difference between the observed sample mean and the presumed population mean.
+
+- Mean of All Lots versus Mu
 ![all_lots_t_test.png](all_lots_t_test.png)
 
+- Mean of Lot 1 versus Mu
 ![lot_1_t_test.png](lot_1_t_test.png)
 
+- Mean of Lot 2 versus Mu
 ![lot_2_t_test.png](lot_2_t_test.png)
 
+- Mean of Lot 3 versus Mu
 ![lot_3_t_test.png](lot_3_t_test.png)
 
 
