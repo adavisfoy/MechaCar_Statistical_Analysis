@@ -81,9 +81,13 @@ Our null and alternative hypothoses can be stated as follows:
 
 ## Study Design: MechaCar vs Competition
 
-- Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-- In your description, address the following questions:
-  - What metric or metrics are you going to test?
-  - What is the null hypothesis or alternative hypothesis?
-  - What statistical test would you use to test the hypothesis? And why?
-  - What data is needed to run the statistical test?
+- Due to multiple contributing factors such as residual pandemic-related global supply chain issues and the war in the Ukraine, inflation and the high price of gas are in the headlines on a daily basis. In addition, we are confronted with the effects of climate change every day and improved fuel efficiency could help limit additional adverse effects of fossil fuels on the environment. 
+- Based on these economic and environmental factors, I would propose to AutosRUs to conduct a study comparing the **fuel efficiency of MechaCar prototypes to our competitors.** 
+  - Proposed study metrics/Data need to run the statistical test: 
+    - Fuel efficiency measures the distance a motor vehicle can travel on a single gallon of gas and relies on a number of factors. We could begin our evaluation by measuring the miles per gallon based on the number of cylinders in the vehicle being studied.  
+    - **Independent Variable:** Number of Cylinders (Data Type: Categorical)
+    - **Dependent Variable:** Miles per Gallon (Data Type: Continuous)
+  - **Statistical Testing Method:** 
+   - We would conduct a **one-way ANOVA** statistical test to evaluate our hypothesis given that our independent variable is categorical data while our dependent variable is continuous. 
+     - **H0:** There is no statistical difference in the mean miles per gallon between our sample and presumed population.  
+     - **HA:** There is a statistical difference in the mean miles per gallon between our sample and presumed population.  
