@@ -89,5 +89,5 @@ Our null and alternative hypothoses can be stated as follows:
     - **Dependent Variable:** Miles per Gallon (Data Type: Continuous)
   - **Statistical Testing Method:** 
    - We would conduct a **one-way ANOVA** statistical test to evaluate our hypothesis given that our independent variable is categorical data while our dependent variable is continuous. 
-   - **H0:** There is no statistical difference in the mean miles per gallon between our sample and presumed population.  
-   - **HA:** There is a statistical difference in the mean miles per gallon between our sample and presumed population.  
+     - **H0:** There is no statistical difference in the mean miles per gallon between our sample and presumed population.  
+     - **HA:** There is a statistical difference in the mean miles per gallon between our sample and presumed population.  
