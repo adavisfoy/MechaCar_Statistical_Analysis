@@ -22,10 +22,15 @@
 
 ## Summary Statistics on Suspension Coils
 
-![total_summ_susp_coils_psi.png](total_summ_susp_coils_psi.png)
-
-![lot_summ_susp_coils_psi.png](lot_summ_susp_coils_psi.png)
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
 
 - Statistical Summary: 
+
+Below are the summary statistics of the weight capacities (in PSI) for all 150 suspension coils across all manufacturing lots: 
+![total_summ_susp_coils_psi.png](total_summ_susp_coils_psi.png)
+
+The following are the summary statistics for weight capacities (in PSI) for the suspension coils grouped by lot number: 
+![lot_summ_susp_coils_psi.png](lot_summ_susp_coils_psi.png)
+
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
   - Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
