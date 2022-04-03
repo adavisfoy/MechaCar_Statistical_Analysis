@@ -24,7 +24,7 @@
 
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
 
-- Statistical Summary: 
+- **Statistical Summary:** 
 
 Below are the **summary statistics** of the weight capacities (in PSI) for all 150 suspension coils **across all manufacturing lots:** 
 ![total_summ_susp_coils_psi.png](total_summ_susp_coils_psi.png)
@@ -41,10 +41,10 @@ The following are the **summary statistics** for weight capacities (in PSI) for 
   - Because of this, it may be more useful to use the standard deviation to answer this question. The standard deviation tells us about the spread or average distance that a value lies from the mean. It is the square root of the variance such that the units will match the original units of our data (PSI).  
 
 - **Conclusion:**
-  - Yes, the current manufacturing data meet the design specifications for all manufacturing lots. The standard deviation for all lots is 7.89 PSI which is well within the defined limits for variance. 
+  - Yes, the current manufacturing data meet the design specifications for all manufacturing lots. The standard deviation for all lots is 7.89 PSI which is well within the defined specifications. 
   - Yes, the current manufacturing data also meet the design specifications for each individual lot. 
-    - The standard deviation for Lot 1 was approximately 1 PSI, within defined limits.
-    - The standard deviation for Lot 2 was 2.73 PSI, also within defined limits. 
-    - The standard deviation for Lot 3 was 13.05 PSI, also within defined limits.  
+    - The standard deviation for Lot 1 was approximately 1 PSI, within defined limits of 100 PSI.
+    - The standard deviation for Lot 2 was 2.73 PSI, also within defined limits of 100 PSI. 
+    - The standard deviation for Lot 3 was 13.05 PSI, also within defined limits of 100 PSI.  
   
    
