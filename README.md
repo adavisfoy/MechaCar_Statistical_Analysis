@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# AutosRUs MechaCar Prototype: Statistical Analysis
 
 ## Linear Regression to Predict MPG
 
@@ -19,3 +19,32 @@
 - **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
   - To determine how well our linear model can be used to predict mpg for future MechaCar prototypes, we can determine and evaluate the coefficient of determination, also known as the r-squared value. 
   - At first glance, our r-squared value of 0.7149 seems to indicate that our linear model is a good predictor of mpg for future MechaCar prototypes. However, only 2 of the 5 independent variables indicated significant impact on our dependent variable of mpg. This raises the possibility of overfitting and the need to refine our linear model to more accurately make predictions for future MechaCar prototypes.  
+
+## Summary Statistics on Suspension Coils
+
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
+
+- **Statistical Summary:** 
+
+Below are the **summary statistics** of the weight capacities (in PSI) for all 150 suspension coils **across all manufacturing lots:** 
+![total_summ_susp_coils_psi.png](total_summ_susp_coils_psi.png)
+
+The following are the **summary statistics** for weight capacities (in PSI) for the suspension coils **grouped by lot number:** 
+![lot_summ_susp_coils_psi.png](lot_summ_susp_coils_psi.png)
+
+- The **design specifications** for the MechaCar suspension coils dictate that the **variance of the suspension coils must not exceed 100 pounds per square inch.**
+- Based on our statistical analysis, we are asked to answer the following: 
+  - **Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
+
+- **Discussion:**  
+  - Statistical analysis is often concerned with variance and how things vary from the average or mean in the real world. The variance provides an actual value for how much the numbers in our data set vary from the mean. Higher numbers indicate greater variability. The full definition of variance is the average of the squared distances from the mean. Because of this, the units of variance are squared (i.e. PSI squared). This makes it difficult to interpret the actual value of the variance against our suspension coil data.  
+  - Therefore, it may be more useful to use the standard deviation to answer this question. The standard deviation tells us about the spread or average distance that a value lies from the mean. It is the square root of the variance such that the units will match the original units of our data (PSI).  
+
+- **Conclusion:**
+  - Yes, the current manufacturing data meet the design specifications for all manufacturing lots. The standard deviation for all lots is 7.89 PSI which is well within the defined specifications. 
+  - Yes, the current manufacturing data also meet the design specifications for each individual lot. 
+    - The standard deviation for Lot 1 was approximately 1 PSI, within defined limits of 100 PSI.
+    - The standard deviation for Lot 2 was 2.73 PSI, also within defined limits of 100 PSI. 
+    - The standard deviation for Lot 3 was 13.05 PSI, also within defined limits of 100 PSI.  
+  
+   
