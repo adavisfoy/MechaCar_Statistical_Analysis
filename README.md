@@ -59,19 +59,19 @@ Our null and alternative hypothoses can be stated as follows:
 
 ![all_lots_t_test.png](all_lots_t_test.png)
 
-- Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample versus the population mean are statistically similar. 
+- Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample across all lots of suspension coils versus the population mean are statistically similar. 
 
 - **Mean of Lot 1 versus Population Mean (Mu = 1500 PSI)**
 
 ![lot_1_t_test.png](lot_1_t_test.png)
 
-- Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample versus the population mean are statistically similar.
+- Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample (i.e. Lot 1 of suspension coils) versus the population mean are statistically similar.
 
 - **Mean of Lot 2 versus Population Mean (Mu = 1500 PSI)**
 
 ![lot_2_t_test.png](lot_2_t_test.png)
 
-- Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample versus the population mean are statistically similar.
+- Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample (i.e. Lot 2 of suspension coils) versus the population mean are statistically similar.
 
 - **Mean of Lot 3 versus Population Mean (Mu = 1500 PSI)**
 
