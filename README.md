@@ -47,4 +47,16 @@ The following are the **summary statistics** for weight capacities (in PSI) for 
     - The standard deviation for Lot 2 was 2.73 PSI, also within defined limits of 100 PSI. 
     - The standard deviation for Lot 3 was 13.05 PSI, also within defined limits of 100 PSI.  
   
-   
+## T-Tests on Suspension Coils
+
+![all_lots_t_test.png](all_lots_t_test.png)
+
+![lot_1_t_test.png](lot_1_t_test.png)
+
+![lot_2_t_test.png](lot_2_t_test.png)
+
+![lot_3_t_test.png](lot_3_t_test.png)
+
+
+
+
