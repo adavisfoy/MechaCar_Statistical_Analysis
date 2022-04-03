@@ -49,27 +49,35 @@ The following are the **summary statistics** for weight capacities (in PSI) for 
   
 ## T-Tests on Suspension Coils
 
-The next section of our analysis will utilize t-tests to evaluate our sample mean versus a presumed population mean (mu = 1500). 
+The next section of our analysis will utilize t-tests to evaluate our sample mean versus a presumed population mean (mu = 1500 PSI). 
 
 Our null and alternative hypothoses can be stated as follows: 
 - H0: There is no statistical difference between the observed sample mean and the presumed population mean. 
 - HA: There is a statistical difference between the observed sample mean and the presumed population mean.
 
-- Mean of All Lots versus Mu
+- **Mean of All Lots versus Population Mean (Mu = 1500 PSI)**
 
 ![all_lots_t_test.png](all_lots_t_test.png)
 
-- Mean of Lot 1 versus Mu
+- Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample versus the population mean are statistically similar. 
+
+- **Mean of Lot 1 versus Population Mean (Mu = 1500 PSI)**
 
 ![lot_1_t_test.png](lot_1_t_test.png)
 
-- Mean of Lot 2 versus Mu
+- Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample versus the population mean are statistically similar.
+
+- **Mean of Lot 2 versus Population Mean (Mu = 1500 PSI)**
 
 ![lot_2_t_test.png](lot_2_t_test.png)
 
-- Mean of Lot 3 versus Mu
+- Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample versus the population mean are statistically similar.
+
+- **Mean of Lot 3 versus Population Mean (Mu = 1500 PSI)**
 
 ![lot_3_t_test.png](lot_3_t_test.png)
+
+- Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is less than our significance level. Therefore, we have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample for Lot 3 suspension coils is statistically different than the population mean (mu = 1500 PSI). 
 
 
 
