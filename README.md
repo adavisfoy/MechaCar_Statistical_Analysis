@@ -26,11 +26,18 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 
 - Statistical Summary: 
 
-Below are the summary statistics of the weight capacities (in PSI) for all 150 suspension coils across all manufacturing lots: 
+Below are the **summary statistics** of the weight capacities (in PSI) for all 150 suspension coils **across all manufacturing lots:** 
 ![total_summ_susp_coils_psi.png](total_summ_susp_coils_psi.png)
 
-The following are the summary statistics for weight capacities (in PSI) for the suspension coils grouped by lot number: 
+The following are the **summary statistics** for weight capacities (in PSI) for the suspension coils **grouped by lot number:** 
 ![lot_summ_susp_coils_psi.png](lot_summ_susp_coils_psi.png)
 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
-  - Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+- The **design specifications** for the MechaCar suspension coils dictate that the **variance of the suspension coils must not exceed 100 pounds per square inch.**
+- Based on our statistical analysis, we are asked to answer the following: 
+  - **Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
+
+- **Discussion:**  
+  - Statistical analysis is often concerned with variance and how things vary from the average or mean in the real world. The variance provides an actual value for how much the numbers in our data set vary from the mean. Higher numbers indicate greater variability. The full definition of variance is the average of the squared distances from the mean, which means the units of variance are squared (i.e. PSI squared). This makes it difficult to interpret the actual value of the variance against our suspension coil data.  
+  - Because of this, it may be more useful to use the standard deviation to answer this question. The standard deviation tells us about the spread or average distance that a value lies from the mean. It is the square root of the variance such that the units will match the original units of our data (PSI).  
+  
+   
