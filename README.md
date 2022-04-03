@@ -56,15 +56,19 @@ Our null and alternative hypothoses can be stated as follows:
 - HA: There is a statistical difference between the observed sample mean and the presumed population mean.
 
 - Mean of All Lots versus Mu
+
 ![all_lots_t_test.png](all_lots_t_test.png)
 
 - Mean of Lot 1 versus Mu
+
 ![lot_1_t_test.png](lot_1_t_test.png)
 
 - Mean of Lot 2 versus Mu
+
 ![lot_2_t_test.png](lot_2_t_test.png)
 
 - Mean of Lot 3 versus Mu
+
 ![lot_3_t_test.png](lot_3_t_test.png)
 
 
