@@ -11,8 +11,8 @@
 - **Is the slope of the linear model considered to be zero? Why or why not?**
   - No, the slope of the linear model is not zero for our linear models of the relationship between vehicle length and ground clearance on miles per gallon (mpg). We have determined that there is a significant relationship between these 2 independent variables (vehicle length and ground clearance) and the dependent variable (mpg).  
   - To understand this, we must review both our null and alternate hypotheses that can be stated as follows: 
-    - H0: The slope of the linear model is zero, or m = 0. (Stated differently, if there was no significant linear relationship between our dependent and independent variables, it would mean that each dependent value would occur at random and the linear model would be a flat line.)
-    - HA: The slope of the linear model is not zero, or m != 0. 
+    - **H0:** The slope of the linear model is zero, or m = 0. (Stated differently, if there was no significant linear relationship between our dependent and independent variables, it would mean that each dependent value would occur at random and the linear model would be a flat line.)
+    - **HA:** The slope of the linear model is not zero, or m != 0. 
   - If we compare our p-values for vehicle length and ground clearance to the significance level of 0.05 (Normal), we have p-values of .00000000000260 and .0000000521 respectively. 
   - Based on these p-values compared with our significance level, we can reject the null hypothesis in this case since both are less than the significance level. Therefore, the slope of these linear models is not zero (HA). 
  
@@ -52,8 +52,8 @@ The following are the **summary statistics** for weight capacities (in PSI) for 
 The next section of our analysis will utilize t-tests to evaluate our sample mean versus a presumed population mean (mu = 1500 PSI). 
 
 Our null and alternative hypothoses can be stated as follows: 
-- H0: There is no statistical difference between the observed sample mean and the presumed population mean. 
-- HA: There is a statistical difference between the observed sample mean and the presumed population mean.
+- **H0:** There is no statistical difference between the observed sample mean and the presumed population mean. 
+- **HA:** There is a statistical difference between the observed sample mean and the presumed population mean.
 
 - **Mean of All Lots versus Population Mean (Mu = 1500 PSI)**
 
