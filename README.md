@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-![multi-linear_reg_summary.png](multi-linear_reg_summary.png)
+![multi-linear_reg_summary.png](Images/multi-linear_reg_summary.png)
 
 - **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
   - Based on the individual p values we obtained for each independent variable from our multiple linear regression, the variables that provide a significant impact on the dependent variable, miles per gallon (mpg), were **vehicle_length** and **ground_clearance**. 
