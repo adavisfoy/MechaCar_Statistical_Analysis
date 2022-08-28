@@ -27,10 +27,10 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 - **Statistical Summary:** 
 
 Below are the **summary statistics** of the weight capacities (in PSI) for all 150 suspension coils **across all manufacturing lots:** 
-![total_summ_susp_coils_psi.png](total_summ_susp_coils_psi.png)
+![total_summ_susp_coils_psi.png](Images/total_summ_susp_coils_psi.png)
 
 The following are the **summary statistics** for weight capacities (in PSI) for the suspension coils **grouped by lot number:** 
-![lot_summ_susp_coils_psi.png](lot_summ_susp_coils_psi.png)
+![lot_summ_susp_coils_psi.png](Images/lot_summ_susp_coils_psi.png)
 
 - The **design specifications** for the MechaCar suspension coils dictate that the **variance of the suspension coils must not exceed 100 pounds per square inch.**
 - Based on our statistical analysis, we are asked to answer the following: 
@@ -57,25 +57,25 @@ Our null and alternative hypothoses can be stated as follows:
 
 - **Mean of All Lots versus Population Mean (Mu = 1500 PSI)**
 
-![all_lots_t_test.png](all_lots_t_test.png)
+![all_lots_t_test.png](Images/all_lots_t_test.png)
 
 - Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample across all lots of suspension coils versus the population mean are statistically similar. 
 
 - **Mean of Lot 1 versus Population Mean (Mu = 1500 PSI)**
 
-![lot_1_t_test.png](lot_1_t_test.png)
+![lot_1_t_test.png](Images/lot_1_t_test.png)
 
 - Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample (i.e. Lot 1 of suspension coils) versus the population mean are statistically similar.
 
 - **Mean of Lot 2 versus Population Mean (Mu = 1500 PSI)**
 
-![lot_2_t_test.png](lot_2_t_test.png)
+![lot_2_t_test.png](Images/lot_2_t_test.png)
 
 - Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is greater than our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample (i.e. Lot 2 of suspension coils) versus the population mean are statistically similar.
 
 - **Mean of Lot 3 versus Population Mean (Mu = 1500 PSI)**
 
-![lot_3_t_test.png](lot_3_t_test.png)
+![lot_3_t_test.png](Images/lot_3_t_test.png)
 
 - Conclusion: Assuming our significance level is the common 0.05 percent, our p-value is less than our significance level. Therefore, we have sufficient evidence to reject the null hypothesis and can determine that the mean of our sample for Lot 3 suspension coils is statistically different than the population mean (mu = 1500 PSI). 
 
